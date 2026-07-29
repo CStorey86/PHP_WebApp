@@ -1,0 +1,199 @@
+.container {   
+    width: 100%;   
+    min-width: 720px;
+  } 
+
+  .footerItemRight{
+    margin-top: 70px;
+  }
+
+  .logo1{
+    margin: auto;
+    width: 25%;
+}
+  .topnav a.webicon {
+    background: #660033;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a.icon {
+    display: none;
+  }
+
+  .welcome{
+    width: 25%;
+  }
+
+  .contactList{
+      width:300px;
+      padding: 8px;
+      float: left;
+  }
+
+  .contactItem{
+    background-color: #660033;
+    width: 260px;
+    margin: 8px;
+    border-radius: 8px;
+    float: left;
+    box-shadow: 4px 4px 6px rgb(102,102,102, 0.8);
+ }
+
+ #emailBox{
+  display:block;
+  float:left;
+  width: 60%;
+  margin: auto;
+  min-width: 600px;
+}
+
+.contactForm {
+  width: 90%;
+}
+
+.emailOverlay{
+  display: none;
+}
+
+#emailButton{
+  display: none;
+}
+
+.contactForm form textarea {
+  height: 50px;
+}
+
+
+.welcome{
+  width: 98%;
+
+}
+
+.detailsTableSection{
+    width: 300px;
+    float: left;
+}
+
+.editSection{
+  display: none;
+} 
+
+.editSectionWeb{
+  display: block;
+  width: 60%;
+  margin: auto;
+  float: left;
+} 
+
+.detailsTableSection{
+  width: 40%;
+  margin: auto;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: block;
+}
+
+.search-container{
+  width: 300px;
+  float: left;
+}
+
+.eventWrapper{
+  width: 280px;
+  height: 420px;
+}
+
+.mainContentEvent{
+  background-color: #f1f1f1;
+  Width: 350px;
+  float: left;
+  padding: 20px 12px 28px 12px; 
+  margin-left: 20px  
+}
+
+.collapsible {
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+
+.eventLine{
+    width:360px;
+    float: left;
+}
+
+.adminSingleEventImage{
+  width: 360px;
+  margin: 16px;
+  float: left;
+}
+.topLine{
+  width: 90%;
+  float: left;
+}
+
+.eventForm label{
+  width: 20%;
+  float: left;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #660033;
+}
+
+.eventForm input{
+  width: 400px;
+  margin: 8px 16px 8px 20px;
+}
+
+.createFormLine label{
+  width: 160px;
+}
+
+.createFormLine input{
+  width: 300px;
+  float:left;
+}
+
+.createFormLine select, .createFormLine option{
+  width: 292px;
+  float:left;
+}
+
+.halfFormSection{
+  width: 45%;
+  float: left;
+  margin: 2px 16px;
+}
+
+#createFormLineOther{
+  width: 200px;
+  float: left;
+}
+
+.passFormLine{
+  width: 96%;
+  padding: 8px;
+  margin: 8px;
+}
+
+.passFormLine label{
+  width: 30%;
+}
+
+.passFormLine input{
+  width: 60%;
+
+}
+
+#webEditBox{
+  display: none;
+}
+#passEditBox{
+  display: none;
+}

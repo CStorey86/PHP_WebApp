@@ -1,0 +1,1509 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;	
+    background-color: #ffffff;
+    width: 100%;
+  } 
+
+.container {   
+    width: 100%;   
+    min-width: 300px;
+    max-width: 600px;
+  }
+
+.errorMessages{
+  width: 100%;
+  float: left;
+  }
+  
+.error{
+    background-color: #660033;
+    color: #f1f1f1;
+    width: 80%;
+    Text-align: center;
+    font-weight: bold;
+    padding:5px 10px;
+    margin: auto;
+  }
+
+  .errorInputs{
+    color: #961555;
+    width: 100%;
+    Text-align: left;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    padding:5px 10px;
+    margin: 4px;
+  }
+
+  .error a{
+      text-decoration: underline;
+      color: white;
+      font-weight: bolder;
+  }
+
+  .errorMessages{
+    color: #961555;
+    width: 100%;
+    Text-align: left;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    padding:5px 10px;
+    margin: 4px;
+  }
+
+  .title{
+      width:100%;
+      float: left;
+  }
+  
+  .section{
+    width: 100%;
+    overflow: scroll;
+    height: 500px;
+  }
+
+
+
+
+  /*//////////////////////////////////////////header/////////////////////////////////////////*/
+  .header{
+      background-color: #ffffff; 
+      width: 100%;
+      float: left;    
+  }
+  
+  .logo1{
+      margin: auto;
+      width: 88%;
+  }
+
+ /*//////////////////////////////////////////navbar/////////////////////////////////////////*/
+ .topnav {
+  background-color: #660033;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #660033;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a.webicon {
+  display: none;
+
+}
+
+.topnav a:hover {
+  background-color: #660033;
+  color: white;
+}
+
+/* //////////////////////////////////////main content//////////////////////////////////*/
+
+ 
+  .mainContent{
+      background-color: #f1f1f1;
+      Width: 100%;
+      float: left;
+      padding: 20px 12px 28px 12px;   
+  }
+ 
+  .text1{
+    width: 100%;
+    float: left;
+    padding: 14px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 2px;
+  }
+ 
+  #about1{
+    width:90%;
+    padding: 8px;
+    float: left;
+    margin: 2px;
+  }
+
+    
+  .text2{
+    width: 100%;
+    float: left;
+    padding: 14px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 1px;
+  }
+
+  .welcome{
+    width: 300px;
+    margin: 2px;
+    float: left;
+    font-weight: bold;
+  }
+
+  .welcome p{
+    float: left;
+    font-size: 20px;
+    padding: 2px 4px;
+    text-align: left;
+
+  }
+
+  .username{
+      font-weight: bold;
+      font-size: 16px;
+      float: left;
+      color: #660033;
+  }
+
+  .title{
+    width: 90%;
+    padding: 8px;
+    margin: 2px;
+  }
+
+  .title h1{
+    border-bottom: #660033 solid 3px;
+    padding: 2px;
+  }
+
+  #webEditBox{
+    display: none;
+  }
+  #passEditBox{
+    display: none;
+  }
+
+  .BoxMain{
+    width:100%;
+    float: left;
+  }
+
+  .numberStmt{
+    font-size: 18px;
+    color: #000000;
+    width: 90%;
+    padding: 4px;
+    margin-left: 16px;
+    float: left;
+  }
+  .numberCount{
+    font-weight: bolder;
+    color: #660033;
+  }
+
+  .search-container{
+      width: 90%;
+      margin-left: 8px;
+      height: 40px;
+      float: left;
+
+  }
+
+  .search-container input{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .search-container button{
+    height: 40px;
+  }
+
+  .eventsBox {
+    width: 98%;  
+
+  }
+  
+  .backBar{
+    color: #660033;
+    width: 100%;
+    float: right;
+  }
+  .backBar a{
+    color: #660033;
+    text-decoration: none;
+    text-align: right;
+  }
+
+  .backBar i{
+    color: #660033;
+    float: right;
+  }
+
+
+ 
+
+  /*////////////////////////////My Details Table////////////////////////////*/
+  #details{
+    width: 96%;
+    background-color: white;
+    border: solid 1px grey;
+  }
+
+  #details tr{
+    margin: 8px;
+    background-color: white;
+  }
+
+  #details td{
+    font-size: 20px;
+    padding: 8px 4px;
+  }
+
+  .detailHeader{
+      font-weight: Bolder;
+      text-align: left;
+      color: #660033;
+      width: 140px;
+  }
+
+  .detail{
+      margin-left: 16px;
+      display: block;
+  }
+
+  .detailsTableSection{
+    width: 100%;
+    margin: auto;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: block;
+  }
+
+
+.editSection{
+  width: 100%;
+  margin: auto;
+  float: left;
+  padding: 8px 16px;
+} 
+
+.editSectionWeb{
+  display: none;
+} 
+
+
+/*//////////////////////////////////////////edit my Details form////////////////////////////////////////*/
+.editForm{
+  background-color: #f1f1f1;
+  width: 96%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.editForm h1 {
+  text-align: center;
+  color: #353434;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.editForm form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  border: solid 4px #353434;
+  background-color: #c2c1c1;
+  border-radius: 8px;
+}
+.editForm form label {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+  background-color: #660033;
+  color: #ffffff;
+  float: left;
+  text-align: left;
+  padding-left: 8px;
+}
+.editForm form input[type="text"], .editForm form input[type="email"] {
+  width: 120px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  float: left;
+}
+.editForm form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #660033;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.editForm form input[type="submit"]:hover {
+background-color: #961555;
+  transition: background-color 0.2s;
+}
+
+#changeMyDetails{
+      width: 300px;
+}
+
+#changeMyDetailsBox{
+  width: 100%;
+  margin: auto;
+}
+
+.editFormBox{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.editFormBox h1 {
+  text-align: center;
+  color: #353434;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #353434;
+}
+
+.editFormBox form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  float: left;
+  margin: auto;
+}
+.editFormBox form label {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 50px;
+  background-color: #660033;
+  color: #ffffff;
+  float: left;
+  text-align: left;
+  padding-left: 8px;
+}
+.editFormBox form input[type="text"], .editFormBox form input[type="email"],.editFormBox form input[type="password"] {
+  width: 65%;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  float: left;
+}
+
+
+.editFormBox form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #660033;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.editFormBox form input[type="submit"]:hover {
+background-color: #961555;
+  transition: background-color 0.2s;
+}
+
+
+  /*//////////////////////////////////////////// Buttons //////////////////////////////////////////////*/
+  .btn{
+    width: 20px;
+    padding: 4px;
+    text-align: center;
+  }
+  
+
+
+  .cancel{
+    width: 160px;
+    height: 40px;
+    background-color: #660033;
+    color: #f1f1f1;
+    box-shadow: #353434 2px 2px 4px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 4px 8px 16px 8px;
+    padding: 8px;
+    float: left;
+  }
+
+
+  .editBtn{
+      width: 80px;
+      height: 40px;
+      background-color: #660033;
+      color: #f1f1f1;
+      box-shadow: #353434 2px 2px 4px;
+      font-size: 20px;
+      font-weight: bolder;
+      margin: 16px 8px 16px 16px;
+      padding: 8px;
+      float: left;
+  }
+  .editBtn2{
+    width: 200px;
+    height: 40px;
+    background-color: #660033;
+    color: #f1f1f1;
+    box-shadow: #353434 2px 2px 4px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 16px 8px 16px 16px;
+    padding: 8px;
+    float: left;
+  }
+
+  .editButtonWeb{
+      display: block;
+      width: 100%;
+  }
+
+
+  .buyTickets{
+    background-color: #660033;
+    color:  #f1f1f1;
+    font-size: 18px;
+    font-weight: bolder;
+    box-shadow: #353434 2px 2px 4px;
+    padding: 8px;
+    margin-left: 16px;
+    float: right;
+  }
+
+  .view{
+    background-color: #660033;
+    color:  #f1f1f1;
+    font-size: 18px;
+    font-weight: bolder;
+    box-shadow: #353434 2px 2px 4px;
+    padding: 8px;
+    float: left;
+    margin: 4px 18px;
+  }
+
+  .createNew{
+    background-color: #660033;
+    color:  #f1f1f1;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: #353434 2px 2px 4px;
+    padding: 8px;
+    float: right;
+    margin: 4px 18px;
+    margin-right: 48px;
+  }
+
+  .view2{
+    background-color: #660033;
+    color:  #f1f1f1;
+    font-size: 18px;
+    font-weight: bolder;
+    box-shadow: #353434 2px 2px 4px;
+    padding: 8px;
+    margin: 2px 16px;
+    float: right;
+  }
+
+  .view3{
+    background-color: #660033;
+    color:  #f1f1f1;
+    font-size: 18px;
+    font-weight: bolder;
+    box-shadow: #353434 2px 2px 4px;
+    padding: 8px;
+    margin: 4px 16px;
+    float: right;
+  }
+
+ /*///////////////////////////////////footer////////////////////////////////////////////*/
+
+.footer{
+    background-color: #660033;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.footerItemLeft{
+  font-size: 14px ;
+  color:  #f1f1f1;
+  text-align: left;
+  padding: 2px;
+  margin: 2px;
+  width: 45%;
+  float: left;
+  text-decoration: none;
+}
+
+.footerItemLeft ul {
+    list-style: none;
+
+}
+
+.footerItemLeft ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footerItemLeft a:hover{
+    color:  white;
+    text-decoration: none;
+    background-color: rgba(241, 181, 181, 0.308);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.footerItemRight{
+  font-size: 14px ;
+  color:  #f1f1f1;
+  text-shadow: 2px 2px #333333;
+  text-align: right;
+  padding: 2px 4px;
+  margin: 12px;
+  width: 45%;
+  height: 24px;
+  float: left;
+}
+
+
+
+/*//////////////////////////////////////////registration form////////////////////////////////////////*/
+.register {
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+}
+
+.register h1 {
+  text-align: center;
+  color: #353434;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+.register form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.register form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #660033;
+  color: #ffffff;
+}
+.register form input[type="password"], .register form input[type="text"], .register form input[type="email"] {
+  width: 70%;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.register form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #660033;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.register form input[type="submit"]:hover {
+background-color: #961555;
+  transition: background-color 0.2s;
+}
+
+
+
+
+
+/*//////////////////////////////////////////contact////////////////////////////////////////*/
+
+.contactList{
+  width:300px;
+  padding: 8px;
+  margin: auto;
+  height: auto;
+}
+
+.contactImage{
+  display: none;
+}
+
+.contactItem{
+   background-color: #660033;
+   width:90%;
+   margin: 8px;
+   border-radius: 8px;
+   float: left;
+   box-shadow: 4px 4px 6px rgb(102,102,102, 0.8);
+}
+
+.contactItem p{
+  color: white;
+  text-decoration: none;
+  float: left;
+  font-size: 20px;
+  margin-left: 16px;
+  padding: 2px 8px;
+  text-align: left;
+}
+
+.contactItem:hover{
+  background-color: #961555;
+  transition: background-color 0.2s;
+}
+
+.contactItem a{
+  color: white;
+  text-decoration: none;
+}
+
+.contactItem i{
+  float: left;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  align-items: center;
+}
+.leftside {
+    display: block;
+}
+
+.rightside{
+  display: block;
+  margin: auto;
+  width: 300px;
+  margin: 20px auto;
+  float: none;
+}
+
+/*//////////////////////////////////////////contact Form////////////////////////////////////////*/
+
+.contactForm {
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 12px 0 rgba(0, 0, 0, 0.7);
+  margin: 20px auto;
+}
+
+.contactForm h1 {
+  text-align: center;
+  color: #353434;
+  font-size: 24px;
+  padding: 8px 0 8px 0;
+}
+.contactForm form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.contactForm form label {
+  display: flex;
+  padding-left: 8px;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  background-color: #660033;
+  color: #ffffff;
+  font-size: 18px;
+}
+.contactForm form input[type="text"], .contactForm form input[type="email"] {
+  width: 90%;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.contactForm form textarea {
+  height: 100px;
+  width: 90%;
+  text-align: left;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactForm form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #660033;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.contactForm form input[type="submit"]:hover {
+background-color: #961555;
+  transition: background-color 0.2s;
+}
+
+#emailBox{
+  display:none;
+}
+
+
+/*//////////////////////////////////////////overlays////////////////////////////////////////*/
+
+#emailOverlay {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(228, 228, 228, 0.4); 
+  z-index: 2; 
+  cursor: pointer; 
+}
+
+#editFormOverlay {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(228, 228, 228, 0.4); 
+  z-index: 2; 
+  cursor: pointer; 
+  padding-bottom: 20px;
+}
+
+.downloadOverlay{
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 40%; 
+  top: 100;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(228, 228, 228, 0.6); 
+  border: solid #660033 3px;
+  z-index: 2; 
+  cursor: pointer; 
+  padding-bottom: 20px;
+}
+
+
+
+.close{
+  width:100%;
+  color: #660033;
+}
+
+/*///////////////////////////////////////Upcoming Events Grid ////////////////////////////////////////*/
+.eventWrapper{
+    width: 280px;
+    margin: 4px;
+    padding: 16px;
+    border: solid #353434 1px;
+    box-shadow: #353434 2px 2px 4px;
+    float: left;
+    background-color: #ffffff;
+    margin: 8px 4px 28px 4px;
+}
+
+.eventImg{
+    width: 240px;
+    height: 200px;
+    padding: 8px;
+    margin: auto;
+}
+
+.eventText{
+  width: 240px;
+  padding: 8px;
+  margin: 4px;
+  margin: auto;
+}
+
+.eventText h2 {
+  padding: 4px;
+  color: #660033;
+  font-weight: bolder;
+  margin: 2px;
+  font-size: 20px;
+  padding-bottom: 8px;
+
+}
+
+.eventText a  {
+  color: #660033;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.eventText p{
+  padding: 4px;
+  margin: 2px;
+}
+
+.price{
+  text-align: right;
+  color: #660033;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.price2{
+  text-align: left;
+  color: #660033;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+/*////////////////////////Single event Page //////////////////*/
+.eventDateTimes{
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  font-style: bold;
+  padding: 2px;
+  float: left;
+}
+
+.eventDescription{
+  width: 100%;
+  margin: auto;
+    border-top: #660033 solid 2px;
+    padding: 8px;
+    float: left;
+}
+
+.eventLocation{
+  border-top: #660033 solid 2px;
+  padding: 8px;
+  width: 100%;
+  margin: auto;
+  float: left;
+}
+
+.singleEventImg{
+  width: 300px;
+  margin: auto;
+  margin-bottom: 18px;
+  float: left;
+}
+
+.mainContentEvent{
+  background-color: #f1f1f1;
+  Width: 100%;
+  float: left;
+  padding: 8px;   
+}
+
+.singleEventPurchase{
+  width: 300px;
+  margin: auto;
+  margin-left: 16px;
+  float: left;
+  padding: 8px;
+}
+
+.singleEventPurchase form{
+  float: right;
+}
+
+.singleEventPurchase form label{
+    padding: 8px;
+    float: left;
+}
+
+.singleEventPurchase form input{
+  width: 60px;
+  padding: 8px;
+  float: left;
+}
+
+
+/*////////////////////////Upcoming Events Table //////////////////*/
+.upComingEventsList{
+    width:100%;
+}
+
+.upComingEventsList table{
+  width:100%;
+}
+
+.upComingEventsList table{
+  width:100%;
+}
+
+.upComingEventsList thead tr{
+  background-color: #660033;
+  color: #f1f1f1;
+}
+
+.upComingEventsList thead tr th{
+  width:25%;
+  padding: 16px 8px;
+  font-size: 18px;
+}
+
+
+.upComingEventsList tbody tr{
+  width:100%;
+  background-color: #f1f1f1;
+  color: #333333;
+  padding: 4px;
+  
+}
+
+.upComingEventsList tbody tr td{
+  color: #333333;
+  padding: 8px;
+  width: 25%;
+}
+
+.upComingEventsList tbody tr:hover {
+  background-color: #961555;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.upComingEventsList tbody tr:nth-child(even) {
+  background-color: #c2c2c2;
+}
+
+.upComingEventsList tbody tr:nth-child(even):hover {
+  background-color: #961555;
+  color: white;
+  font-weight: bolder;
+}
+
+.eventTitle{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 4px;
+  color: #f1f1f1;
+  width: 40%;
+}
+
+.eventTitle a{
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 8px;
+  color: #660033;
+}
+
+.eventTitle a:hover{
+  background-color: #961555;
+  color: white;
+}
+
+/*///////////////////////////////My Events /////////////////////////*/
+
+.myEvents{
+    width: 90%;
+    border-bottom: solid #660033 2px;
+    margin: 30px 8px 8px 8px;
+}
+
+.myEvents table{
+  width: 100%;
+}
+
+.myEvents thead{
+  width: 100%;
+  background-color: #660033;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 4px;
+}
+
+
+.myEvents thead tr td{
+  padding: 4px;
+}
+
+.myEvents tbody tr{
+  background-color: white;
+  border-bottom: #353434;
+}
+.myEvents tbody tr td {
+  text-align: center;
+}
+
+.myEvents tbody tr td p{
+  text-align: left;
+  padding-left: 8px;
+}
+
+.myEvents tbody tr td a{
+  text-decoration: underline;
+  color: #660033;
+  font-weight: bold;
+}
+
+.myEvents tbody tr:hover {
+  background-color: #961555;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.myEvents tbody tr:nth-child(even) {
+  background-color: #c2c2c2;
+}
+
+.myEvents tbody tr:nth-child(even):hover {
+  background-color: #961555;
+  color: white;
+  font-weight: bolder;
+}
+
+
+/*//////////////////////////////// Admin Panel ///////////////////////////////*/
+.adminPanel{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.adminBox{
+  width: 100%;
+  float: left
+}
+
+.collapsible {
+  background-color: #777575;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  align-content: center;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.collapsible:hover {
+  background-color: #961555;
+}
+
+.content {
+  width: 100%;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin: 0 0 16px 0;
+  border: #333333 solid 2px;
+}
+
+.memberList{
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+.memberList table{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.memberList thead{
+  width: 100%;
+  background-color: #660033;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 4px;
+}
+
+.memberList thead tr td{
+  padding: 4px;
+  text-align: center;
+}
+
+.memberList tbody tr{
+  background-color: white;
+  border-bottom: #353434;
+}
+.memberList tbody tr td {
+  text-align: left;
+  padding: 4px 8px;
+  font-size: 18px;
+}
+
+.memberList tbody tr:nth-child(even) {
+  background-color: #c2c2c2;
+}
+
+.idNum{
+  text-align: center;
+  width: 20px;
+}
+
+.eventLine{
+    width:100%;
+    height: 500px;
+    overflow: scroll;
+}
+
+.newEvent{
+    width: 100%;
+}
+
+.topLine{
+    width: 45%;
+    float: left;
+}
+
+.topLine p{
+  padding: 4px;
+  margin: auto;
+}
+
+.notes{
+    font-style: italic;
+}
+
+.middleLine{
+  width: 100%;
+  border-top: solid #660033 2px;
+  margin: auto;
+  margin-top: 16px;
+  padding: 8px;
+  float: left;
+}
+
+.singleEventImage{
+  width: 100%;
+  padding: 4px;
+  margin: 4px;
+  float: left;
+  border-top: #660033 solid 2px;
+}
+
+.singleEventImage img{
+  width: 180px;
+  padding: 4px;
+  margin: 4px;
+  float: left;
+}
+
+/* ////////////////////// Edit //////////////// */
+
+.eventEditForm{
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  font-style: bold;
+  padding: 2px;
+  float: left;
+}
+
+.eventForm{
+  width:98%;
+  padding: 8px 16px;
+  margin: 16px 4px;
+  float: left;
+  display: block;
+}
+
+.eventForm label{
+  width: 200px;
+  float: left;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #660033;
+}
+
+.eventForm input{
+  width: 100%;
+  margin: 2px 8px;
+  font-size: 18px;
+  width: 260px;
+  float: left;
+  overflow: scroll;
+  background-color: white;
+  border: solid #333333 1px;
+}
+
+.eventForm input textarea{
+  height: 100px;
+  overflow: scroll;
+}
+
+.eventFormCheck{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+
+}
+
+.memberCatagory{
+  font-weight: bolder;
+  font-size: 20px;
+  color: #660033;
+}
+
+.memberCatagoryText{
+  font-size: 20px;
+  color: #1b1b1b;
+}
+
+.editFormSection{
+  width: 100%;
+  padding: 8px;
+  margin: 8px 4px;
+}
+
+.saveAllChanges{
+      width: 120px;
+      height: 40px;
+      background-color: #660033;
+      color: white;
+      font: bolder 22px;
+      float: right;
+      margin: 8px 16px;
+}
+.saveChanges{
+  width: 80px;
+  height: 30px;
+  background-color: #660033;
+  color: white;
+  font: bolder 20px;
+  float: left;
+  margin: 8px 16px;
+}
+
+.warning{
+  font-weight: boolder;
+  font-size: 22px;
+  color: red;
+}
+
+
+.createForm{
+  background-color: #f1f1f1;
+  width: 96%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px;
+}
+
+.createFormLine, .createFormLineOther {
+  width: 100%;
+  float: left;
+}
+
+.createFormLine2{
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+}
+
+
+.createFormLine label, .createFormLine2 label, .createFormLineOther label{
+  width: 80%;
+  margin: 4px 8px;
+  font-size: 20px;
+  color: #660033;
+  font-weight: bolder;
+  float: left;
+}
+
+.createFormLine textarea, .createFormLine2 textarea{
+  width: 96%;
+  height: 200px;
+  overflow: scroll;
+  margin: 4px 8px;
+  font-size: 18px;
+  Text-align: left;
+  font-weight: bolder;
+  float: left;
+  border: solid 2px #353434;
+}
+
+.createFormLine input, .createFormLine2 input, .createFormLineOther input{
+  width: 96%;
+  margin: 4px 8px;
+  font-size: 18px;
+  float: left;
+  padding: 4px;
+  border: solid 2px #353434;
+  background-color: white;
+}
+
+.createFormLine select, .createFormLine option, .createFormLine2 select, .createFormLine2 option  {
+  width: 100%;
+  margin: 4px 8px;
+  font-size: 18px;
+  float: left;
+  padding: 4px;
+  border: solid 2px #353434;
+  background-color: white;
+}
+
+.halfFormSection{
+  width: 100%;
+  float: left;
+}
+
+.createFormLine3{
+  width: 100%;
+  border-bottom: solid #660033 3px;
+  padding: 8px 8px 16px 8px;
+  margin: 8px 2px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.createFormLine3 h2{
+  text-align: left;
+}
+
+#online, #notOnline{
+  width: 20px;
+  height: 20px;
+  color: #353434;
+  padding: 8px;
+  float: left;
+}
+
+.onlineLabel{
+  width: 200px;
+  float: left;
+}
+
+#location{
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+}
+
+#createFormLineOther{
+    margin-left: 30px;
+}
+
+
+.box{
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+  display: none;
+}
+
+.venueOptions{
+  display:none
+}
+
+
+/* //////////////////////////////// change password ///////////////////////////////// */
+
+.Change_Password{
+  width: 100%;
+  border-top: #660033 solid 3px;
+  float: left;
+}
+
+.passFormLine{
+    width: 100%;
+    float: left;
+}
+
+.passFormLine h2{
+  border-bottom: #660033 solid 2px;
+  padding-bottom: 20px;
+  margin-bottom: 4px;
+}
+
+.passFormLine label{
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+.passFormLine input{
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  padding: 10px;
+}
+
+
+
+.displaysection1{
+  width: 100%;
+  float: left;
+  padding: 8px;
+  margin: 4px;
+}
+
+.displayLine{
+  width: 100%;
+  float: left;
+  padding: 4px;
+  margin: 2px;
+}
+
